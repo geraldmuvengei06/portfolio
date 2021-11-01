@@ -196,7 +196,7 @@ function Footer() {
   ]
 
   return (
-    <div className="md:container md:mx-auto py-40">
+    <div className="md:container md:mx-auto py-20">
       <div className="justify-center flex">
         {
           icons.map((icon) => {
