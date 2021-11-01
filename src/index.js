@@ -6,7 +6,7 @@ import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App className="box-border"/>
   </React.StrictMode>,
   document.getElementById('root')
 );
