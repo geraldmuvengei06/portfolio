@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import { useEffect, useState } from 'react';
+import Hero from './Hero';
 
 function App() {
   return (
@@ -14,35 +15,6 @@ function App() {
 }
 
 
-function Hero() {
-  return (
-    <div className="md:container md:mx-auto py-40">
-      <div className=" sm:flex space-4 items-center">
-        <div className="flex-auto p-4 justify-items-center">
-          <h1 className="xl:inline">
-            <span className="block font-black text-6xl capitalize mb-4 ">Hola,</span>
-            <span className="block font-black text-red-400 text-6xl capitalize mb-4">
-              Am Gerald
-            </span>
-          </h1>
-          <p className="font-bold text-4xl mb-6">
-            I Build Solutions to Real Life Problems
-          </p>
-
-
-          <div className="py-4">
-            <a className="bg-red-400 text-white px-8 py-4 rounded-md shadow-lg uppercase xl:inline">Halla Me</a>
-          </div>
-
-
-        </div>
-        <div className="flex-auto p-4 justify-items-center align-items-center ">
-          <img className="rounded-full h-72 w-72 flex align-self-center shadow-lg inline-block" src="/user.svg" />
-        </div>
-      </div>
-    </div>
-  )
-}
 
 function Into() {
 
